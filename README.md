@@ -1,59 +1,89 @@
 <h1 align="center">Hi 👋, I'm Krrish Kumar</h1>
-<h3 align="center">Backend Developer | System Design Enthusiast | B.Tech CSE @ AKGEC</h3>
+<p align="center">
+  🚀 Backend Developer | 🏫 CSE Undergrad | 💡 Tech Enthusiast | 🧠 Problem Solver
+</p>
 
 ---
 
-🔧 I love building scalable backend systems and real-time platforms using modern web technologies. I'm passionate about system architecture, distributed systems, and clean, maintainable code.
+## 🚀 About Me
+
+- 🎓 Computer Science Engineering (B.Tech) student at AKGEC (3rd Year)  
+- 🔧 Passionate about building scalable and efficient backend systems  
+- 💼 Currently developing a **microservices-based coding platform**, inspired by LeetCode and Codeforces  
+- 💬 Ask me about **Node.js**, **Redis**, **MySQL**, **MongoDB**, **Docker**, **Socket.IO**, and **Message Queues**  
+- 📫 Connect with me: [GitHub](https://github.com/KrrishKumar125) • [LinkedIn](https://www.linkedin.com/in/krrishkumar125/) • [Email](mailto:krrishkumar2028@gmail.com)
 
 ---
 
-### 🚀 Tech Stack & Tools
+## 📂 Notable Projects
 
-#### Languages
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql)
+### 🛞 RideWave  
+> A real-time ride-matching platform that uses **geohashing**, **Redis-based driver discovery**, and **WebSocket** communication for lightning-fast updates.
+>
+>  ✨ **Features:**
+> - 🚗 Supports real-time ride requests with expiration countdowns and confirmations  
+> - 📍 Uses Redis Geospatial data for efficient nearby driver lookups
+> - 📡 Socket.IO enables seamless real-time communication between drivers and the system
+> - 💬 Features a message center for customer and system messages
+> - ⚙️ Designed with modular services: booking controller, location service, and driver management
+>   
+> 🛠️ **Tech Stack:** Node.js, Express, Redis (Geospatial), MongoDB, Socket.IO
 
-#### Backend & Frameworks
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express)
-![Socket.IO](https://img.shields.io/badge/-Socket.IO-010101?style=flat-square&logo=socket.io)
+### ✈️ Airline Management System  
+> A microservices-based flight booking system that includes modules for **Authentication**, **Flights & Search**, **Booking**, **Reminders**, and an **API Gateway**.
+>
+> ✨ **Features:**
+> - 🔐 Authentication, Booking, Flight Search, and Reminder Services with an API Gateway.
+> - 📬 Integrated RabbitMQ for event-driven notifications and scalable service communication.
+> - 🚀 Dockerized the application for easy deployment and continuous integration.
+> - 💾 Optimized MySQL for fast data retrieval and efficient handling of 10,000+ records.
+> - 🛠 JWT-based authentication with secure token management for role-based access.
+>   
+> 🛠️ **Tech Stack:** Node.js, MySQL, RabbitMQ, JWT, Docker
 
-#### Databases
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis)
+---
 
-#### Message Queues & Communication
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=flat-square&logo=rabbitmq)
-![REST API](https://img.shields.io/badge/-REST%20API-02569B?style=flat-square&logo=api)
+## 🧰 Tech Stack & Tools
 
-#### DevOps & Deployment
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker)
-![AWS EC2](https://img.shields.io/badge/-AWS%20EC2-232F3E?style=flat-square&logo=amazon-aws)
-![AWS RDS](https://img.shields.io/badge/-AWS%20RDS-527FFF?style=flat-square&logo=amazon-aws)
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman)
+### 🧠 Languages  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=fff)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=fff)
+
+### 🛠️ Backend & Frameworks  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=fff)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=fff)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+
+### 🗄️ Databases  
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=fff)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=fff)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=fff)
+
+### 📨 Message Queues & APIs  
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=fff)
+![REST API](https://img.shields.io/badge/REST-005571?style=for-the-badge)
+
+### 🚀 DevOps & Deployment  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fff)
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![AWS RDS](https://img.shields.io/badge/AWS%20RDS-527FFF?style=for-the-badge&logo=amazon-rds&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
 ### 🧠 Interests
-- Backend Architecture & Design Patterns
-- Distributed Systems
-- Geospatial Services with Redis
-- Real-time Communication with WebSockets
-- Hackathons & Developer Communities
 
----
+> - 🏗️ Backend Architecture & Design Patterns
+> - 🌐 Distributed Systems
+> - 🚀 Hackathons & Developer Communities
 
-### 📂 Notable Projects
+---  
 
-#### 🔧 RideWave
-> Real-time ride-matching platform with geohashing, Redis-based driver discovery, and WebSocket communication for real-time notifications.  
-Tech Stack: Node.js, Express, Redis, MongoDB, Socket.IO, Message Queue
+🌟 Experience
 
-#### ✈️ Airline Management System
-> Microservices-based flight booking system with Authentication, Booking, Flights, Reminder Services & an API Gateway.  
-Tech Stack: Node.js, MySQL, RabbitMQ, JWT, Docker
+> - 💻 Practical hands-on experience building production-ready backend systems from scratch.
+> - 🎮 Participation in multiple hackathons and tech activities showcasing adaptability and creativity.
 
 ---
 
@@ -69,12 +99,4 @@ Tech Stack: Node.js, MySQL, RabbitMQ, JWT, Docker
 
 ---
 
-### 🌐 Let's Connect!
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krrishkumar125/)  
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/KrrishKumar125)  
-📫 Email: krrishkumar2028@gmail.com
-
----
-
-> *“Always ready to dominate challenges and grow through building impactful software.”*
+⭐️ *If you like what I do, give me a star on [GitHub](https://github.com/KrrishKumar125)!*
