@@ -67,7 +67,7 @@ Passionate about architecting **resilient, scalable backend systems** that handl
 
 **Stack:** `Node.js` · `Express` · `Redis (Geospatial)` · `Socket.IO` · `MongoDB` · `Docker`
 
-🔗 **Repository:** [RideWave-RealTime-Ride-Matching-System](https://github.com/KrrishKumar125/RideWave-RealTime-Ride-Matching-System)
+🔗 **Repository:** [RideWave-Real-Time-Ride-Matching-System](https://github.com/KrrishKumar125/RideWave-Real-Time-Ride-Matching-System)
 
 ---
 
@@ -166,7 +166,7 @@ Passionate about architecting **resilient, scalable backend systems** that handl
 
 <div align="center">
 
-[![RideWave](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=RideWave-Real-Time-Ride-Matching-System&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/RideWave-RealTime-Ride-Matching-System)
+[![RideWave](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=RideWave-Real-Time-Ride-Matching-System&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/RideWave-Real-Time-Ride-Matching-System)
 
 [![Airline Management System](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=Airline-Booking-Management-System&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/Airline-Booking-Management-System)
 
