@@ -177,20 +177,11 @@ Passionate about architecting **resilient, scalable backend systems** that handl
 ---
 
 ## 📊 GitHub Analytics
-
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=KrrishKumar125&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="180px" />
-
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=KrrishKumar125&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrrishKumar125&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://streak-stats.demolab.com?user=KrrishKumar125&theme=tokyonight&hide_border=true&"alt="GitHub Streak"/>
 </div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrrishKumar125&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="180px" />
-
-</div>
-
----
 
 ## 🎯 What Sets Me Apart
 
