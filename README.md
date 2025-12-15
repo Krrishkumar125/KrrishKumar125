@@ -103,7 +103,7 @@ Passionate about architecting **resilient, scalable backend systems** that handl
 
 **Stack:** `Node.js` · `TypeScript` · `Fastify` · `Docker` · `Redis Queue` · `WebSockets`
 
-🔗 **Repository:** [AlgoForge-ProblemService](https://github.com/KrrishKumar125/AlgoForge-ProblemService) *(In Progress)*
+🔗 **Repository:** [AlgoForge](https://github.com/KrrishKumar125/AlgoForge-Backend)
 
 ---
 
@@ -170,7 +170,7 @@ Passionate about architecting **resilient, scalable backend systems** that handl
 
 [![Airline Management System](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=Airline-Booking-Management-System&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/Airline-Booking-Management-System)
 
-[![AlgoForge](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=AlgoForge-ProblemService&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/AlgoForge-ProblemService)
+[![AlgoForge](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=AlgoForge-Backend&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/AlgoForge-ProblemService)
 
 </div>
 
