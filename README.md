@@ -1,227 +1,122 @@
-<div align="center">
+# Krrish Kumar
+**Final-year CSE student | Backend Engineering | Distributed Systems | Open Source Contributor**
 
-# 🚀 Krrish Kumar  
-### Backend Engineer | Distributed Systems | Real-Time Infrastructure
-
-**Engineering scalable, production-grade backend systems.**
-
-<!-- Badge Strip -->
-<img src="https://img.shields.io/badge/Backend-Engineering-007BFF?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Distributed-Systems-8A2BE2?style=for-the-badge&logo=apache-kafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/Real--Time-Systems-00CBA9?style=for-the-badge&logo=socketdotio&logoColor=white"/>
+I focus on building **scalable backend systems**, **data-intensive services**, and **real-time infrastructure**.  
+Currently preparing for **Google Summer of Code 2026**, with a strong emphasis on backend-heavy and infrastructure-oriented open source projects.
 
 ---
 
-<!-- Social Links -->
-<div>
-  <a href="https://www.linkedin.com/in/krrishkumar125">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/KrrishKumar125">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:krrishkumar2028@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</div>
+## Open Source & GSoC 2026
+
+I am actively preparing for **Google Summer of Code 2026** by contributing to open source projects that involve:
+
+- Backend APIs and service design
+- Distributed and event-driven systems
+- Databases, caching, and async processing
+- Writing maintainable, review-friendly PRs
+- Collaborating closely with maintainers
+
+**Target domains**
+- Backend infrastructure
+- Distributed systems
+- Data platforms and real-time systems
 
 ---
 
-</div>
+## Technical Focus
 
-## 🧑‍💻 About Me
-
-```javascript
-const krrish = {
-  role: "Backend Engineer & Systems Architect",
-  mindset: "Ship scalable systems, not just code",
-  location: "Ghaziabad, India",
-  education: "Final-year B.Tech CSE @ AKGEC",
-  currentlyBuilding: "AlgoForge — Real-time code execution platform",
-  focusAreas: [
-    "Distributed Backend Systems",
-    "Real-Time WebSocket Infrastructure",
-    "Event-Driven Microservices",
-    "High-performance Data Flows"
-  ],
-  philosophy: "Impact > Output. Systems > Scripts. Scalability > features."
-};
-```
-
-Passionate about architecting **resilient, scalable backend systems** that handle real-world complexities efficiently. I specialize in designing systems that don't just work—they thrive under production load.
+- **Backend:** Node.js, Express, Fastify
+- **Databases:** MongoDB, MySQL, PostgreSQL
+- **Caching & Queues:** Redis, BullMQ, RabbitMQ
+- **Real-Time Systems:** WebSockets, Socket.IO
+- **DevOps:** Docker, Docker Compose, CI/CD basics
+- **System Design:** API design, fault tolerance, scalability
 
 ---
 
-## 🏆 Flagship Projects
+## Flagship Projects
 
-### 🛞 RideWave — Real-Time Ride Matching System
-*Production-grade Uber-like backend with geospatial intelligence*
+### RideWave — Real-Time Ride Matching Backend
+*Uber-like backend with geospatial indexing and real-time updates*
 
-**Performance Highlights:**
-- ✔ **<100ms** nearest driver lookup using **Redis Geospatial + Geohashing**
-- ✔ Real-time location updates using **Socket.IO** (instant sync)
-- ✔ Modularized services → Location, Booking, Driver, Notifications
-- ✔ **Horizontally scalable** (tested with 10,000+ concurrent ride requests)
-- ✔ 85% latency reduction through strategic caching
+- Implemented **Redis Geospatial indexing + geohashing** for nearest-driver lookup
+- Real-time location and ride updates via **Socket.IO**
+- Modular backend services (location, booking, driver, notifications)
+- Designed for **horizontal scalability** with caching and async flows
 
+**Tech:** Node.js · Express · Redis · MongoDB · Socket.IO · Docker  
+**Open-source relevance:** Real-time systems, caching strategies, scalable API design
 
-**Stack:** `Node.js` · `Express` · `Redis (Geospatial)` · `Socket.IO` · `MongoDB` · `Docker`
-
-🔗 **Repository:** [RideWave-Real-Time-Ride-Matching-System](https://github.com/KrrishKumar125/RideWave-Real-Time-Ride-Matching-System)
-
----
-
-### ✈️ Airline Management System — Event-Driven Microservices
-*Distributed flight booking platform with async communication & saga patterns*
-
-**System Design:**
-- ✔ **5 microservices** — Auth, Flights, Booking, Reminder, API Gateway
-- ✔ Inter-service communication using **RabbitMQ** (async, decoupled)
-- ✔ JWT-based user auth with **RBAC** (role-based access control)
-- ✔ Docker-based modular deployment + Docker Compose orchestration
-- ✔ Implemented **Saga Pattern** for distributed transactions
-- ✔ Comprehensive Postman API documentation
-
-
-**Stack:** `Node.js` · `Express` · `MySQL` · `RabbitMQ` · `Docker` · `JWT` · `Postman`
-
-🔗 **Repository:** [Airline-Booking-Management-System](https://github.com/KrrishKumar125/Airline-Booking-Management-System)
+🔗 Repository:  
+https://github.com/KrrishKumar125/RideWave-Real-Time-Ride-Matching-System
 
 ---
 
-### 🧠 AlgoForge — Code Execution Platform
-*Next-gen competitive coding platform with real-time judging engine*
+### Airline Management System — Event-Driven Microservices
+*Distributed flight booking platform using async communication*
 
-**Key Features:**
-- ✔ **Sandboxed code execution** engine (secure, isolated)
-- ✔ **Distributed workers** using Redis Queue (horizontal scaling)
-- ✔ Real-time output streaming through **WebSockets**
-- ✔ Multi-language support infrastructure (extensible)
-- ✔ Queue-based job distribution for load balancing
-- ✔ Sub-500ms code execution with caching layer
+- Built **5 microservices** (Auth, Flights, Booking, Reminder, API Gateway)
+- Asynchronous inter-service communication using **RabbitMQ**
+- Implemented **Saga pattern** for distributed transaction management
+- JWT-based authentication with role-based access control
 
+**Tech:** Node.js · Express · MySQL · RabbitMQ · Docker · JWT  
+**Open-source relevance:** Microservices, message queues, system reliability
 
-**Stack:** `Node.js` · `TypeScript` · `Fastify` · `Docker` · `Redis Queue` · `WebSockets`
-
-🔗 **Repository:** [AlgoForge](https://github.com/KrrishKumar125/AlgoForge-Backend)
+🔗 Repository:  
+https://github.com/KrrishKumar125/Airline-Booking-Management-System
 
 ---
 
-## ⚙️ Technical Expertise
+### AlgoForge — Backend for Online Code Evaluation Platform
+*Backend infrastructure for competitive programming platform*
 
-| Category | Strengths |
-|----------|-----------|
-| **Backend Architecture** | REST APIs · Microservices · API Gateway Pattern · Fault tolerance · Load balancing · Circuit Breakers |
-| **Distributed Systems** | Message queues (RabbitMQ, Redis) · Event-sourcing · Saga Pattern · Async workflows · Resilience patterns |
-| **Database Engineering** | Query optimization · Indexing · Sharding · Geospatial indexing · High-performance caching · Schema design |
-| **Real-Time Systems** | WebSockets · Socket.IO · Redis Pub/Sub · Live data streaming · Real-time notifications |
-| **DevOps & Infrastructure** | Docker · Docker Compose · AWS (EC2, RDS) · CI/CD pipelines · Monitoring & Logging |
+- Designed **sandboxed code execution pipeline**
+- Distributed workers using **Redis queues** for scalability
+- Real-time submission output via **WebSockets**
+- Modular services with logging and error isolation
 
----
+**Tech:** Node.js · TypeScript · Fastify · Redis · Docker  
+**Open-source relevance:** Job queues, distributed workers, backend architecture
 
-## 🛠 Tech Stack (Primary)
-
-<div align="center">
-
-### Languages & Runtimes
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=database&logoColor=white)
-
-### Backend & Frameworks
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-
-### Databases & Caching
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-### Messaging & Queueing
-
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-000000?style=flat-square&logo=npm&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-
-### DevOps & Tools
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-</div>
+🔗 Repository:  
+https://github.com/KrrishKumar125/AlgoForge-Backend
 
 ---
 
-## 📌 Pinned Repositories
+## How I Work
 
-<div align="center">
-
-[![RideWave](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=RideWave-Real-Time-Ride-Matching-System&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/RideWave-Real-Time-Ride-Matching-System)
-
-[![Airline Management System](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=Airline-Booking-Management-System&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/Airline-Booking-Management-System)
-
-[![AlgoForge](https://github-readme-stats.vercel.app/api/pin/?username=KrrishKumar125&repo=AlgoForge-Backend&theme=tokyonight&hide_border=true)](https://github.com/KrrishKumar125/AlgoForge-ProblemService)
-
-</div>
+- Prefer **small, reviewable PRs** with clear intent
+- Write code with **tests and documentation**
+- Focus on **maintainability over shortcuts**
+- Communicate asynchronously and respond quickly to reviews
+- Comfortable reading and contributing to large codebases
 
 ---
 
-## 📊 GitHub Analytics
-<div align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=KrrishKumar125&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrrishKumar125&layout=compact&theme=tokyonight&hide_border=true"/>
-<img height="180em" src="https://streak-stats.demolab.com?user=KrrishKumar125&theme=tokyonight&hide_border=true&"alt="GitHub Streak"/>
-</div>
+## Currently Learning & Improving
 
-## 🎯 What Sets Me Apart
-
-- **Production-First Mindset:** Every system built with scalability, monitoring, fault-tolerance, and recovery strategies in mind
-- **Performance Obsession:** I care deeply about latency, caching efficiency, and resource optimization—not just passing tests
-- **Real-World Design:** My systems are architected to thrive under production load with graceful degradation
-- **Clean Architecture:** Modular, testable, maintainable code that teams can build upon and scale confidently
-- **Holistic Thinking:** I consider database design, caching strategy, queue patterns, and deployment together—not in silos
+- Advanced distributed system patterns
+- Database performance tuning
+- Observability (logging, metrics, tracing)
+- Open source contribution workflows
 
 ---
 
-## 📚 Engineering Philosophy
+## Availability
 
-| Principle | Implementation |
-|-----------|---|
-| **Scalability First** | Microservices, horizontal scaling, stateless design |
-| **Reliability Over Speed** | Circuit breakers, retry logic, graceful degradation |
-| **Observability** | Structured logging, metrics, distributed tracing |
-| **Security** | JWT, RBAC, input validation, secure secrets management |
+- ⏱ **20–30 hours/week**
+- 🌍 Timezone: IST (UTC+5:30)
+- 💬 Comfortable with async communication
 
 ---
 
-## 🤝 Let's Connect & Collaborate
+## Contact
 
-Open to opportunities in **distributed systems**, **backend architecture**, and **high-scale platform engineering**.
-
-📧 **Email:** [krrishkumar2028@gmail.com](mailto:krrishkumar2028@gmail.com)
-
-🔗 **LinkedIn:** [https://www.linkedin.com/in/krrishkumar125](https://www.linkedin.com/in/krrishkumar125)
-
-💻 **GitHub:** [https://github.com/KrrishKumar125](https://github.com/KrrishKumar125)
+- GitHub: https://github.com/KrrishKumar125  
+- LinkedIn: https://www.linkedin.com/in/krrishkumar125  
+- Email: krrishkumar2028@gmail.com
 
 ---
 
-<div align="center">
-
-### **"Architecture isn't code. It's strategy."**
-
-![Profile Views](https://komarev.com/ghpvc/?username=KrrishKumar125&color=00CBA9&style=flat-square)
-
-*Built with ❤️ and a passion for scalable systems*
-
-</div>
+*Focused on building reliable systems and contributing meaningfully to open source.*
