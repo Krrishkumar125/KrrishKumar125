@@ -1,5 +1,5 @@
 <a href="https://www.krrishkumar.me">
-  <img src="./assets/banner.svg" width="100%" alt="Krrish Kumar — Backend & AI Engineer. I build the systems behind intelligent products. Status: Parivar AI live, Ashvi Health building, RAG in progress. Open to backend and AI roles." />
+  <img src="./assets/banner.svg" width="100%" alt="Krrish Kumar — Backend & AI Engineer. I build the systems behind intelligent products. Status: Parivar AI being redeployed, 6 npm packages shipped, RAG in progress. Open to backend and AI roles." />
 </a>
 
 <p align="center">
@@ -12,14 +12,14 @@
 
 <p align="center">
   I work on the layer users never see (APIs, queues, and the wiring between services) and ship AI on top of it.<br/>
-  Founder of <a href="https://www.parivarai.in"><b>Parivar AI</b></a>, live on Google Play · building RAG · studying MIT 6.824 and DDIA.
+  Co-founder of <a href="https://www.parivarai.in"><b>Parivar AI</b></a> (launched on Google Play, being redeployed) · 6 open-source npm packages · studying MIT 6.824 and DDIA.
 </p>
 
 ## 01 · Selected work
 
 <p>
   <a href="https://www.parivarai.in">
-    <img src="./assets/parivar-ai.svg" width="100%" alt="Parivar AI — live on Google Play. An AI companion for Indian families: talk to Maa, Papa, or Dadi in Hindi, by chat or voice call. I built the Flutter app and the Node.js backend. Stack: Node.js, LLM APIs, text-to-speech, Flutter." />
+    <img src="./assets/parivar-ai.svg" width="100%" alt="Parivar AI — launched on Google Play, being redeployed. An AI companion for Indian families: talk to Maa, Papa, or Dadi in Hindi, by chat or voice call. I built the Node.js backend; my co-founder built the Flutter app. Stack: Node.js, LLM APIs, text-to-speech, Flutter." />
   </a>
 </p>
 
@@ -143,20 +143,33 @@ flowchart LR
 
 | Project | What it is | Stack |
 |:--|:--|:--|
-| [Ashvi Health](https://health-website-nine.vercel.app) *(in development)* | Preventive health platform; one API serving a Flutter app and a Next.js web client | Node.js · TypeScript · AWS EC2/S3 · Nginx |
 | [Auth Service](https://github.com/Krrishkumar125/Auth_Service) | Sign-up and login service with secure tokens | Node.js · Express · MySQL |
 | [API Gateway](https://github.com/Krrishkumar125/API_GATEWAY) | Front door for the airline services: rate limits and auth checks | Node.js · Express · http-proxy-middleware |
 
-## 03 · Experience
+## 03 · Open source
+
+Small tools for problems I kept hitting in backend work. All on [npm](https://www.npmjs.com/~krrishkumar125).
+
+| Package | What it does |
+|:--|:--|
+| [`webhook-crash-lab`](https://github.com/Krrishkumar125/webhook-crash-lab) [![npm](https://img.shields.io/npm/v/webhook-crash-lab?style=flat-square&color=FB923C&labelColor=121211&label=)](https://www.npmjs.com/package/webhook-crash-lab) | Crash-test Stripe/GitHub webhook handlers: duplicate, concurrent, out-of-order, forged, stale deliveries, then assert business state |
+| [`webhook-crash-lab-mcp`](https://github.com/Krrishkumar125/webhook-crash-lab-mcp) [![npm](https://img.shields.io/npm/v/webhook-crash-lab-mcp?style=flat-square&color=FB923C&labelColor=121211&label=)](https://www.npmjs.com/package/webhook-crash-lab-mcp) | MCP server + Claude Code plugin + Codex skill: an agent runs the lab, fixes, re-runs |
+| [`eslint-plugin-webhook-safety`](https://github.com/Krrishkumar125/eslint-plugin-webhook-safety) [![npm](https://img.shields.io/npm/v/eslint-plugin-webhook-safety?style=flat-square&color=FB923C&labelColor=121211&label=)](https://www.npmjs.com/package/eslint-plugin-webhook-safety) | Lint rules: raw body, signature checks, idempotency, BullMQ jobId |
+| [`eslint-plugin-bullmq`](https://github.com/Krrishkumar125/eslint-plugin-bullmq) [![npm](https://img.shields.io/npm/v/eslint-plugin-bullmq?style=flat-square&color=FB923C&labelColor=121211&label=)](https://www.npmjs.com/package/eslint-plugin-bullmq) | Lint rules for BullMQ production pitfalls |
+| [`create-bullmq-app`](https://github.com/Krrishkumar125/create-bullmq-app) [![npm](https://img.shields.io/npm/v/create-bullmq-app?style=flat-square&color=FB923C&labelColor=121211&label=)](https://www.npmjs.com/package/create-bullmq-app) | Scaffold a BullMQ + TypeScript service: API, workers, graceful shutdown, Docker |
+| [`zod-india`](https://github.com/Krrishkumar125/zod-india) [![npm](https://img.shields.io/npm/v/zod-india?style=flat-square&color=FB923C&labelColor=121211&label=)](https://www.npmjs.com/package/zod-india) | Zod schemas for GSTIN (with checksum), PAN, IFSC, UPI, Aadhaar, PIN |
+
+**Fixes sent upstream:** [MikroORM #8498](https://github.com/mikro-orm/mikro-orm/pull/8498) · [Payload #18956](https://github.com/payloadcms/payload/pull/18956) · [graphile/worker #648](https://github.com/graphile/worker/pull/648) · [json-server #1781](https://github.com/typicode/json-server/pull/1781)
+
+## 04 · Experience
 
 | When | Role | Highlights |
 |:--|:--|:--|
-| Dec 2025 – now | **Founder, Engineering** · Parivar AI | Built the Flutter app and the Node.js AI backend; took it from zero through Play Store review to launch |
-| Mar 2026 – now | **Founder, Engineering** · Ashvi Health | Own the backend end to end on AWS EC2/S3 behind Nginx |
-| Oct – Dec 2025 | **Backend Developer Intern** · Rablo | REST APIs in Node.js + MongoDB, response times cut ~30%; JWT auth and access control on every protected route; monolith refactored into controller/service layers |
+| Dec 2025 – now | **Co-founder, Backend/AI** · Parivar AI | Built the Node.js AI backend (Gemini → OpenAI → Groq fallback, pgvector memory, LiveKit voice calls); launched on Google Play, now being redeployed |
+| Oct – Dec 2025 | **Backend Developer Intern** · Rablo | REST APIs in Node.js + MongoDB; JWT auth and access control on every protected route; monolith refactored into controller/service layers |
 | 2022 – 2026 | **B.Tech, CSE (AI/ML)** · AKGEC, Ghaziabad | |
 
-## 04 · Skills, by evidence
+## 05 · Skills, by evidence
 
 **Production** = used in shipped products or public working systems · **Hands-on** = actively building with it
 
@@ -170,18 +183,18 @@ flowchart LR
 
 **Languages:** JavaScript · TypeScript · C++ · Python *(hands-on)* · **Product surface:** Flutter · Next.js · React · Tailwind CSS
 
-## 05 · AI engineering, on a backend foundation
+## 06 · AI engineering, on a backend foundation
 
 Same rules as the backend work: behind a service boundary, measured, and honest about maturity.
 
 | Shipped | Building | Next |
 |:--|:--|:--|
-| **AI in a live product** | **AI grounded in your data** | **AI you can trust in production** |
+| **AI in a shipped product** | **AI grounded in your data** | **AI you can trust in production** |
 | LLM APIs · Prompt design · Conversation management · Text-to-speech · Image input | RAG · Embeddings · Vector search · Structured outputs · FastAPI · Tool calling | Agents · LangGraph · MCP · Evaluations · Guardrails · LLMOps |
 
 <sub>The full maturity-labelled AI skill map (49 items) is on <a href="https://www.krrishkumar.me/#ai">krrishkumar.me</a>.</sub>
 
-## 06 · How I build
+## 07 · How I build
 
 1. **Latency is a feature.** If the user doesn't need to wait for it, it goes on a queue. Emails, code runs, and AI calls happen in the background.
 2. **Design for failure.** One slow dependency should delay a task, not break the product.
