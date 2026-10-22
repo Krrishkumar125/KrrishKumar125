@@ -166,7 +166,7 @@ Small tools for problems I kept hitting in backend work. All on [npm](https://ww
 | When | Role | Highlights |
 |:--|:--|:--|
 | Dec 2025 – now | **Co-founder, Backend/AI** · Parivar AI | Built the Node.js AI backend (Gemini → OpenAI → Groq fallback, pgvector memory, LiveKit voice calls); launched on Google Play, now being redeployed |
-| Oct – Dec 2025 | **Backend Developer Intern** · Rablo | REST APIs in Node.js + MongoDB, response times cut ~30%; JWT auth and access control on every protected route; monolith refactored into controller/service layers |
+| Oct – Dec 2025 | **Backend Developer Intern** · Rablo | REST APIs in Node.js + MongoDB; JWT auth and access control on every protected route; monolith refactored into controller/service layers |
 | 2022 – 2026 | **B.Tech, CSE (AI/ML)** · AKGEC, Ghaziabad | |
 
 ## 05 · Skills, by evidence
