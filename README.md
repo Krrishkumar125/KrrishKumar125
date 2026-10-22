@@ -7,7 +7,7 @@
   <a href="https://www.krrishkumar.me/resume.pdf"><img src="https://img.shields.io/badge/Résumé-PDF-1C1C1A?style=for-the-badge&labelColor=121211&logo=readdotcv&logoColor=FB923C" alt="Résumé" /></a>
   <a href="https://www.linkedin.com/in/krrishkumar125"><img src="https://img.shields.io/badge/LinkedIn-krrishkumar125-1C1C1A?style=for-the-badge&labelColor=121211" alt="LinkedIn" /></a>
   <a href="https://x.com/KrrishKumar2028"><img src="https://img.shields.io/badge/X-@KrrishKumar2028-1C1C1A?style=for-the-badge&labelColor=121211&logo=x&logoColor=FB923C" alt="X" /></a>
-  <a href="mailto:krrishkumar2028@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-1C1C1A?style=for-the-badge&labelColor=121211&logo=gmail&logoColor=FB923C" alt="Email" /></a>
+  <a href="mailto:krrishkumar200803@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-1C1C1A?style=for-the-badge&labelColor=121211&logo=gmail&logoColor=FB923C" alt="Email" /></a>
 </p>
 
 <p align="center">
@@ -210,12 +210,12 @@ Same rules as the backend work: behind a service boundary, measured, and honest 
 
 <br/>
 
-<a href="mailto:krrishkumar2028@gmail.com">
-  <img src="./assets/contact.svg" width="100%" alt="Let's build something that works at scale. Email krrishkumar2028@gmail.com; I reply within a day. Open to backend, AI and founding-engineer roles." />
+<a href="mailto:krrishkumar200803@gmail.com">
+  <img src="./assets/contact.svg" width="100%" alt="Let's build something that works at scale. Email krrishkumar200803@gmail.com; I reply within a day. Open to backend, AI and founding-engineer roles." />
 </a>
 
 <p align="center">
-  <a href="mailto:krrishkumar2028@gmail.com">Email</a> ·
+  <a href="mailto:krrishkumar200803@gmail.com">Email</a> ·
   <a href="https://www.krrishkumar.me">Portfolio</a> ·
   <a href="https://www.krrishkumar.me/resume">Résumé</a> ·
   <a href="https://www.linkedin.com/in/krrishkumar125">LinkedIn</a> ·
